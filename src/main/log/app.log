@@ -1,0 +1,44 @@
+2021-06-02 15:49:52 %-5 [main]: File URL have been gotten
+2021-06-02 15:49:52 %-5 [main]: Byte array from file have been gotten
+2021-06-02 15:49:52 %-5 [main]: Message from file have been gotten
+2021-06-02 15:51:19 INFO  [main]: File URL have been gotten
+2021-06-02 15:51:19 INFO  [main]: Byte array from file have been gotten
+2021-06-02 15:51:19 INFO  [main]: Message from file have been gotten
+2021-06-02 17:33:54 ERROR [main]: Data read error
+java.io.FileNotFoundException: daa.txt (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at model.service.FileIO.readFlowersArray(FileIO.java:23)
+	at model.service.impl.ShopModelImpl.<init>(ShopModelImpl.java:37)
+	at controller.ShopController.<init>(ShopController.java:25)
+	at MVCMain.main(MVCMain.java:7)
+2021-06-02 17:38:41 ERROR [main]: Data read error
+java.io.FileNotFoundException: daa.txt (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at model.service.FileIO.readFlowersArray(FileIO.java:23)
+	at model.service.impl.ShopModelImpl.<init>(ShopModelImpl.java:37)
+	at controller.ShopController.<init>(ShopController.java:25)
+	at MVCMain.main(MVCMain.java:7)
+2021-06-02 17:39:51 ERROR [main]: Data read error
+java.io.FileNotFoundException: daa.txt (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at model.service.FileIO.readFlowersArray(FileIO.java:23)
+	at model.service.impl.ShopModelImpl.<init>(ShopModelImpl.java:37)
+	at controller.ShopController.<init>(ShopController.java:25)
+	at MVCMain.main(MVCMain.java:7)
+2021-06-02 18:11:15 INFO  [main]: File was written
+2021-06-02 18:11:33 INFO  [main]: New flower has been add
+2021-06-02 18:11:38 INFO  [main]: Flowering indoor flowers has been shown
+2021-06-02 18:11:44 INFO  [main]: Subspecies and count of flower has been shown
+2021-06-02 18:11:46 INFO  [main]: List of flowers has been shown
+2021-06-02 18:11:49 INFO  [main]: Data have been updated!
+2021-06-02 18:12:38 INFO  [main]: File was written
+2021-06-02 18:13:24 INFO  [main]: Changed data hasn't been saved
